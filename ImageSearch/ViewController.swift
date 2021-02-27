@@ -34,6 +34,7 @@ class ViewController: UIViewController,UISearchBarDelegate {
         collectionView.delegate = self
         collectionView.dataSource = self
         self.collectionView = collectionView
+        collectionView.backgroundColor = .systemBackground
         
         // Do any additional setup after loading the view.
     }
